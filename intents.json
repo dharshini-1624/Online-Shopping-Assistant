@@ -1,0 +1,151 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! How can I assist you today?",
+        "Hello, welcome to our store! How can I help?",
+        "Hi! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you later"],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Happy shopping!",
+        "Thanks for visiting! Come back soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it", "That was helpful"],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "I'm glad I could assist!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What products do you have?",
+        "What items can I buy?",
+        "What are you selling?",
+        "Can you show me your products?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We have a wide range of electronics, clothing, and home appliances.",
+        "Our store offers everything from fashion to electronics, beauty, and more!",
+        "You can explore our categories like fashion, electronics, home decor, and more."
+      ]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Do you have laptops?",
+        "Can I buy smartphones here?",
+        "Do you sell kitchen appliances?",
+        "Can I find shoes in your store?"
+      ],
+      "responses": [
+        "Yes, we offer laptops from leading brands.",
+        "We have a range of smartphones available for purchase.",
+        "Yes, we have a variety of kitchen appliances.",
+        "You can find shoes in our fashion section."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you accept credit cards?",
+        "Can I pay using Visa?",
+        "What payment methods do you support?",
+        "Do you take PayPal?"
+      ],
+      "responses": [
+        "We accept credit cards, PayPal, and other online payment methods.",
+        "You can use Visa, Mastercard, or PayPal for payment.",
+        "We accept most major payment methods, including PayPal and credit cards."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "When will my order arrive?",
+        "What are your shipping times?",
+        "How fast is your delivery service?"
+      ],
+      "responses": [
+        "Delivery typically takes 3-5 business days, depending on your location.",
+        "You can expect your order to arrive within 3-5 business days.",
+        "Our standard shipping time is 3-5 days, but expedited shipping is available."
+      ]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "Where is my order?",
+        "Can I track my package?",
+        "How do I check my order status?",
+        "Can you help me find my order?"
+      ],
+      "responses": [
+        "You can track your order by entering your tracking number on our website.",
+        "Please use the tracking link sent to your email to check your order status.",
+        "You can check your order status in the 'My Orders' section of your account."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "Can I return a product?",
+        "What is your return policy?",
+        "How do I return an item?",
+        "Can I get a refund?"
+      ],
+      "responses": [
+        "We offer a 30-day return policy for most items.",
+        "You can return any product within 30 days of purchase, as long as it’s in its original condition.",
+        "To return an item, please go to the 'Returns' section on our website."
+      ]
+    },
+    {
+      "tag": "promotions",
+      "patterns": [
+        "Are there any deals?",
+        "Do you have any discounts?",
+        "What promotions are going on?",
+        "Can I get a coupon code?"
+      ],
+      "responses": [
+        "Check out our 'Deals' section for the latest promotions!",
+        "We have seasonal sales and promotions going on. Visit our homepage for more details.",
+        "You can find discount codes on our website or by subscribing to our newsletter."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Do you know any jokes?",
+        "Can you make me laugh?"
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "What do you call fake spaghetti? An impasta!"
+      ]
+    }
+  ]
+}
